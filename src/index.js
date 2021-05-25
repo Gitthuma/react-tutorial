@@ -14,13 +14,18 @@ import './index.css'
 
 /*Add div with className App inside return function*/
 
+/*Add h1 tag with hello world! inside div*/
+
 class App extends React.Component {
   render() {
     return(
       <div className="App">
         <h1>Hello World</h1>
       </div>
-
     )
   }
 }
+
+/*Render the App to the HTML div with class root using ReactDOM*/
+
+ReactDOM.render(<App />, document.getElementById('root'))
