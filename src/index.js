@@ -12,9 +12,14 @@ import './index.css'
 
 /*Add return function inside render method*/
 
+/*Add div with className App inside return function*/
+
 class App extends React.Component {
   render() {
     return(
+      <div className="App">
+
+      </div>
 
     )
   }
