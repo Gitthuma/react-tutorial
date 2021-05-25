@@ -8,9 +8,15 @@ import './index.css'
 
 /*Add mandatory render method inside App component*/
 
+/*Add return fucntion inside render method*/
+
+/*Add return function inside render method*/
+
 class App extends React.Component {
   render() {
-    
+    return(
+
+    )
   }
 
 }
