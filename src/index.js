@@ -6,6 +6,11 @@ import './index.css'
 
 /*Create class with App compenent*/
 
+/*Add mandatory render method inside App component*/
+
 class App extends React.Component {
+  render() {
+    
+  }
 
 }
