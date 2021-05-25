@@ -1,6 +1,8 @@
 /*Import React, ReactDOM and index.css file*/
 
-import React from 'react'
+/*Import react Component and remove React.Component from the extends in line 21*/
+
+import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 
@@ -16,7 +18,7 @@ import './index.css'
 
 /*Add h1 tag with hello world! inside div*/
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return(
       <div className="App">
