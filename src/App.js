@@ -25,3 +25,7 @@ class App extends Component {
     )
   }
 }
+
+/*Export the component as App and load it in index.js*/
+
+export default App
