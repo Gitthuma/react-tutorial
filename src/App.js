@@ -1,3 +1,7 @@
+/*Import React and Component from react*/
+
+import React, {Component} from 'react'
+
 /*Paste App component from index.js*/
 
 /*Create class with App compenent*/
