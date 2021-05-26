@@ -4,8 +4,11 @@
 
 /*Remove Component from React import statement*/
 
+/*Import App component from App file*/
+
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App'
 import './index.css'
 
 /*Delete app component and paste it in App.js*/
