@@ -1,6 +1,9 @@
 /*Import React and Component from react*/
 
+/*Import Table from Table.js*/
+
 import React, {Component} from 'react'
+import Table from './Table'
 
 /*Paste App component from index.js*/
 
