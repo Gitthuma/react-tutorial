@@ -21,10 +21,12 @@ import Table from './Table'
 
 /*Remove Hello World and load Table*/
 
+/*Change Table div class to container*/
+
 class App extends Component {
   render() {
     return(
-      <div className="App">
+      <div className="container">
         <Table />
       </div>
     )
