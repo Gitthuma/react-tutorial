@@ -19,11 +19,13 @@ import Table from './Table'
 
 /*Add h1 tag with hello world! inside div*/
 
+/*Remove Hello World and load Table*/
+
 class App extends Component {
   render() {
     return(
       <div className="App">
-        <h1>Hello World</h1>
+        <Table />
       </div>
     )
   }
