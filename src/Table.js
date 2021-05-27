@@ -49,3 +49,9 @@ class Table extends Component {
     }
 
 }
+
+/*Export component to App.js*/
+
+export default Table
+
+/*Note: This component we created is a custom class component. We capitalize custom components to differentiate them from regular HTML elements.*/
