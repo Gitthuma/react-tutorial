@@ -14,9 +14,18 @@ import React, {Component} from 'react'
 
 /*Create a constant TableHeader pointing to a return function. This will be assigned to a function call using an assignment opertater whhich will then be assigned to the return function using an arrow function.*/
 
+/*Inside the return function, create the table heading.*/
+
 const TableHeader = () => {
 
     return(
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Job</th>
+            </tr>
+        </thead>
 
     )
 
