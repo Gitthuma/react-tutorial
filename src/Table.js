@@ -8,6 +8,8 @@ import React, {Component} from 'react'
 
 /*Add render return function with component content to be rendered*/
 
+/*Simple Component*/
+
 /*Simple Components. These are functions and don't use the class keyword. In this exercies we will add two sinple components for our table - a table header and a table body.*/
 
 /*TableHeader*/
@@ -69,6 +71,8 @@ const TableBody = () => {
 
 }
 
+/*Class Component*/
+
 /*Assign the TableHeader and the  TableBody simple components to the table class component*/
 
 class Table extends Component {
@@ -95,3 +99,5 @@ class Table extends Component {
 export default Table
 
 /*Note: This component we created is a custom class component. We capitalize custom components to differentiate them from regular HTML elements.*/
+
+/*Note: If the return is contained to one line, it does not need parentheses.*/
