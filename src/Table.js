@@ -12,13 +12,13 @@ import React, {Component} from 'react'
 
 /*TableHeader*/
 
-/*Create a constant TableHeader pointing to a return function. This will be assigned to a function call using an assignment opertater whhich will then be assigned to the return function using an arrow function.*/
+/*Create a constant TableHeader pointing to a return function. This will be assigned to a function call using an assignment opertater which will then be assigned to the return function using an arrow function.*/
 
 /*Inside the return function, create the table heading.*/
 
 const TableHeader = () => {
 
-    return(
+    return (
 
         <thead>
             <tr>
@@ -29,6 +29,18 @@ const TableHeader = () => {
 
     )
 
+}
+
+/*TableBody*/
+
+/*Create a constant TableBody pointing to a return function. This will be assigned to a function call using an assignment opertater which will then be assigned to the return function using an arrow function.*/
+
+const TableBody = () => {
+
+    return (
+
+    )
+    
 }
 
 class Table extends Component {
