@@ -35,12 +35,38 @@ const TableHeader = () => {
 
 /*Create a constant TableBody pointing to a return function. This will be assigned to a function call using an assignment opertater which will then be assigned to the return function using an arrow function.*/
 
+/*Inside the return function, create the table body.*/
+
 const TableBody = () => {
 
     return (
 
+        <tbody>
+
+            <tr>
+                <td>Charlie</td>
+                <td>Janitor</td>
+            </tr>
+
+            <tr>
+                <td>Mac</td>
+                <td>Bouncer</td>
+            </tr>
+
+            <tr>
+                <td>Dee</td>
+                <td>Aspiring actress</td>
+            </tr>
+
+            <tr>
+                <td>Dennis</td>
+                <td>Bartender</td>
+            </tr>
+
+        </tbody>
+
     )
-    
+
 }
 
 class Table extends Component {
