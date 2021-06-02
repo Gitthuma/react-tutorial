@@ -23,13 +23,44 @@ import Table from './Table'
 
 /*Change Table div class to container*/
 
+/*Props*/
+
+/*Move all the data from the TableBody component to an array of objects inside the App class component. This is done is as if we are bringing in a JSON-based API. We create this array inside our render().*/
+
 class App extends Component {
   render() {
+
+    const characters = [
+
+      {
+        name: 'Charlie',
+        job: 'Janitor',
+      },
+
+      {
+        name: 'Mac',
+        job: 'Bouncer',
+      },
+
+      {
+        name: 'Dee',
+        job: 'Aspring actress',
+      },
+
+      {
+        name: 'Dennis',
+        job: 'Bartender',
+      }
+
+    ]
+
     return(
+
       <div className="container">
         <Table />
       </div>
     )
+    
   }
 }
 
