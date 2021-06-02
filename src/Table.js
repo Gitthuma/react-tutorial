@@ -39,35 +39,13 @@ const TableHeader = () => {
 
 /*Inside the return function, create the table body.*/
 
+/*Props*/
+
+/*Remove all the data from our TableBody component. We will move this data to the App class component inside App.js.*/
+
 const TableBody = () => {
 
-    return (
-
-        <tbody>
-
-            <tr>
-                <td>Charlie</td>
-                <td>Janitor</td>
-            </tr>
-
-            <tr>
-                <td>Mac</td>
-                <td>Bouncer</td>
-            </tr>
-
-            <tr>
-                <td>Dee</td>
-                <td>Aspiring actress</td>
-            </tr>
-
-            <tr>
-                <td>Dennis</td>
-                <td>Bartender</td>
-            </tr>
-
-        </tbody>
-
-    )
+    return <tbody />
 
 }
 
