@@ -27,6 +27,8 @@ import Table from './Table'
 
 /*Move all the data from the TableBody component to an array of objects inside the App class component. This is done is as if we are bringing in a JSON-based API. We create this array inside our render().*/
 
+/*Pass the characters array data through to the Table child component. Table components has Table properties. The passing of data is done the same way you pass data through using data- attributes. We can then call the property whatever we want, as long as it's not a reserved keyword; in or case we will use characterData. The data we are passing through is the characters variable, we will put curly braces around it as it's a JavaScript expression.*/
+
 class App extends Component {
   render() {
 
@@ -57,10 +59,12 @@ class App extends Component {
     return(
 
       <div className="container">
-        <Table />
+
+        <Table characterData = {characters} />
+        
       </div>
     )
-    
+
   }
 }
 
