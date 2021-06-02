@@ -53,16 +53,22 @@ const TableBody = () => {
 
 /*Assign the TableHeader and the  TableBody simple components to the table class component*/
 
+/*Prpos*/
+
+/*Access data from App class Table property from inside the Table component. We do this by creating a constant characterData inside Table class render() and assigning it the characterData properties using this.props. Our characterData constant is inside curly braces. We then assign the declared characterData constant to our TableBody child component inside return(). */
+
 class Table extends Component {
 
     render() {
+
+        const {characterData} = this.props
 
         return (
 
             <table>
 
                 <TableHeader />
-                <TableBody />
+                <TableBody characterData = {characterData} />
 
             </table>
 
