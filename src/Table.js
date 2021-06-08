@@ -45,7 +45,11 @@ const TableHeader = () => {
 
 /*As is, the TableBody takes no arguments and returns a single tbody tag.To change this, we are going to pass through props from the Table class as an argument in TableBody.*/
 
+/*Then create a constant rows that will contain an expression to return.*/
+
 const TableBody = (props) => {
+
+    const rows =
 
     return <tbody />
 
