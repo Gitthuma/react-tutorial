@@ -51,6 +51,8 @@ const TableHeader = () => {
 
 /*Pass the rows variable to tbody tag so that it can print the mapped expression on our web app.*/
 
+/*We have added a key index in each table row. Keys are used in react to mark lists, as they help identify each list item.*/
+
 const TableBody = (props) => {
 
     const rows = props.characterData.map((row, index) => {
