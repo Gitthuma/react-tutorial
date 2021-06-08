@@ -43,7 +43,9 @@ const TableHeader = () => {
 
 /*Remove all the data from our TableBody component. We will move this data to the App class component inside App.js.*/
 
-const TableBody = () => {
+/*As is, the TableBody takes no arguments and returns a single tbody tag.To change this, we are going to pass through props from the Table class as an argument in TableBody.*/
+
+const TableBody = (props) => {
 
     return <tbody />
 
