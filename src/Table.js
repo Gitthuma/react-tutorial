@@ -47,9 +47,22 @@ const TableHeader = () => {
 
 /*Then create a constant rows that will contain an expression to return.*/
 
+/*Create the return expression which is the map of the array from characterData, mapping it to return a table row for each object in the array.*/
+
 const TableBody = (props) => {
 
-    const rows =
+    const rows = props.characterData.map((row, index) => {
+
+        return (
+
+            <tr key={index}>
+
+                <td>{row.name}</td>
+                <td>{row.job}</td>
+
+            </tr>
+        )
+    })
 
     return <tbody />
 
