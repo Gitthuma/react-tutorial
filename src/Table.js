@@ -57,6 +57,8 @@ const TableBody = () => {
 
 /*Access data from App class Table property from inside the Table component. We do this by creating a constant characterData inside Table class render() and assigning it the characterData properties using this.props. Our characterData constant is inside curly braces. We then assign the declared characterData constant to our TableBody child component inside return(). */
 
+/*In Table, we can access all props through this.props. We are only passing one pops through, characterData, so to retrive it we will use this.props.characterData to retrieve it. The ES6 property shorthand is used to create a variable that contains this.props.character. Since table components consist of two simple components, we pass this.props.characterData to the TableBody simple component using props*/
+
 class Table extends Component {
 
     render() {
