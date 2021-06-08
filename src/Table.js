@@ -49,6 +49,8 @@ const TableHeader = () => {
 
 /*Create the return expression which is the map of the array from characterData, mapping it to return a table row for each object in the array.*/
 
+/*Pass the rows variable to tbody tag so that it can print the mapped expression on our web app.*/
+
 const TableBody = (props) => {
 
     const rows = props.characterData.map((row, index) => {
@@ -64,7 +66,7 @@ const TableBody = (props) => {
         )
     })
 
-    return <tbody />
+    return <tbody>{rows}</tbody>
 
 }
 
